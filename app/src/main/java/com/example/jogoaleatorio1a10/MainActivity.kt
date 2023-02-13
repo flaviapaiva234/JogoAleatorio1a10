@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import android.widget.TextView
+import kotlin.random.Random as Random1
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,7 +15,9 @@ class MainActivity : AppCompatActivity() {
 
     fun sortearNumero(view: View) {
          var texto = findViewById(R.id.tv2textoSorteio) as TextView
-          texto.setText("Texto Alterado")
+
+         var numeroSorteado = Random1.nextInt(11)
+        texto.setText("O número sorteado é $numeroSorteado")
     }
 
 }
