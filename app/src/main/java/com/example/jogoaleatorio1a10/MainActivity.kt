@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
          var texto = findViewById(R.id.tv2textoSorteio) as TextView
 
          var numeroSorteado = Random1.nextInt(11)
-        texto.setText("O número sorteado é $numeroSorteado")
+        texto.setText("O número sorteado é: $numeroSorteado")
     }
 
 }
