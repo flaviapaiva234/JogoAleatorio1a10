@@ -1,4 +1,4 @@
-# JogoAleatorio1a10
+# Jogo Aleatório de 1 a 10
 Gerador de Números Randômicos
 
 - Aplicativo bem simples de Gerador de Números de forma Aleatória.
